@@ -12237,6 +12237,89 @@ table {
   width: 984px;
 }
 
+.admin {
+  margin-top: 32px;
+}
+
+.admin .title {
+  font-weight: bold;
+}
+
+.admin .title h2, .admin .title .h2 {
+  font-size: 24px;
+}
+
+.admin .title button {
+  padding: 0px;
+  background-color: white;
+  border: 0px;
+}
+
+.admin .title button span {
+  color: #198754;
+}
+
+.admin .title button p {
+  color: black;
+  font-weight: bold;
+}
+
+.admin .title .title-icon {
+  width: 74px;
+}
+
+.admin .title .title-icon span {
+  padding-top: 7px;
+  color: black;
+  cursor: pointer;
+}
+
+.admin table {
+  margin-top: 48px;
+}
+
+.admin table thead .id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin table thead .id span {
+  color: #198754;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.admin table tbody tr {
+  height: 55px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin table tbody th {
+  height: 53.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin table tbody td button {
+  padding: 0px;
+  border: 0px;
+  background-color: white;
+  color: black;
+}
+
+nav {
+  margin-top: 63px;
+  margin-bottom: 32px;
+}
+
 .assignment {
   margin-left: 32px;
   margin-top: 32px;
@@ -12448,89 +12531,6 @@ table {
 
 .assignment-content .right-btm-section .botton .btn-reply {
   width: 105px;
-}
-
-.admin {
-  margin-top: 32px;
-}
-
-.admin .title {
-  font-weight: bold;
-}
-
-.admin .title h2, .admin .title .h2 {
-  font-size: 24px;
-}
-
-.admin .title button {
-  padding: 0px;
-  background-color: white;
-  border: 0px;
-}
-
-.admin .title button span {
-  color: #198754;
-}
-
-.admin .title button p {
-  color: black;
-  font-weight: bold;
-}
-
-.admin .title .title-icon {
-  width: 74px;
-}
-
-.admin .title .title-icon span {
-  padding-top: 7px;
-  color: black;
-  cursor: pointer;
-}
-
-.admin table {
-  margin-top: 48px;
-}
-
-.admin table thead .id {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.admin table thead .id span {
-  color: #198754;
-  margin-left: 7px;
-  cursor: pointer;
-}
-
-.admin table tbody tr {
-  height: 55px;
-  border-bottom: 1px solid #dee2e6;
-}
-
-.admin table tbody th {
-  height: 53.5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.admin table tbody td button {
-  padding: 0px;
-  border: 0px;
-  background-color: white;
-  color: black;
-}
-
-nav {
-  margin-top: 63px;
-  margin-bottom: 32px;
 }
 
 .admin-modal .modal-content {
