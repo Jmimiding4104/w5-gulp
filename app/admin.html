@@ -1,0 +1,479 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: admin
+---
+
+<div class="admin">
+  <div class="title d-flex justify-content-between">
+    <div class="title-text d-flex">
+      <h2 class="me-5">Admin</h2>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary d-flex" data-bs-toggle="modal" data-bs-target="#AdminModal">
+        <span class="material-icons me-2">
+          add
+        </span>
+        <p>
+          Add New Admin
+        </p>
+      </button>
+    </div>
+    <div class="title-icon d-flex justify-content-between">
+      <span class="material-icons">
+        search
+      </span>
+      <span class="material-icons">
+        notifications_active
+      </span>
+    </div>
+  </div>
+
+  <table class="table align-middle">
+    <thead>
+      <tr>
+        <th scope="col" style="width: 113px;" class="id">ID
+          <span class="material-icons" style="font-size: 18px;">
+            arrow_downward
+          </span>
+        </th>
+        <th scope="col" style="width: 234px;">Name</th>
+        <th scope="col" style="width: 325px;">Email</th>
+        <th scope="col" style="width: 177px;">Verified</th>
+        <th scope="col" style="width: 47px;"></th>
+        <th scope="col" style="width: 24px;"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">#1</th>
+        <td>Emir Wicks</td>
+        <td>emir.wicks@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eyeModal">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#penModal">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#2</th>
+        <td>Zaina Goldsmith</td>
+        <td>zaina.goldsmith@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#3</th>
+        <td>Mahima Lopez</td>
+        <td>mahima.lopez@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#4</th>
+        <td>Pharrell Murray</td>
+        <td>pharrell.murray@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#5</th>
+        <td>Annika Mcbride</td>
+        <td>annika.mcbride@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#6</th>
+        <td>Fatimah Clark</td>
+        <td>fatimah.clark@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#7</th>
+        <td>Klaudia Rhodes</td>
+        <td>Klaudia Rhodes</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#8</th>
+        <td>Tillie Lucero</td>
+        <td>tillie.lucero@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#9</th>
+        <td>Sabrina Stephenson</td>
+        <td>sabrina.stephenson@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#10</th>
+        <td>Annie Smith</td>
+        <td>annie.smith@mail.com</td>
+        <td>Yes</td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              visibility
+            </span>
+          </button>
+        </td>
+        <td style="padding: 0px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+            <span class="material-icons">
+              edit
+            </span>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <nav aria-label="Page navigation example" class="d-flex justify-content-end">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          < </a>
+      </li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          >
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--Add New Admin Modal -->
+  <div class="modal fade admin-modal" id="AdminModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New Admin</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Account</h6>
+          <div class="modal-name d-flex flex-column mt-3">
+            <label for="name" class="mb-1">Name</label>
+            <input type="text" id="name">
+          </div>
+          <div class="modal-email d-flex flex-column mt-3 mb-3">
+            <label for="email" class="mb-1">Email</label>
+            <input type="text" id="email">
+          </div>
+          <div class="line"></div>
+          <h6 class="mb-3">Verification</h6>
+          <div class="unverified d-flex align-items-center mb-3">
+            <span class="material-icons me-2">
+              report_problem
+            </span>
+            <p>Unverified</p>
+          </div>
+          <button type="button">Send Verification Mail</button>
+          <div class="line"></div>
+          <h6 class="mb-3">Access Level</h6>
+          <div class="access-section d-flex justify-content-between align-items-center pt-3 pe-3 pb-3 ps-3">
+            <p>-Choose access level-</p>
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+          <div class="line"></div>
+          <h6 class="mb-3">Custom Access</h6>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="lecture" id="Lecture">
+            <label for="lecture" class="ms-2">Lecture</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="coupon" id="Lecture">
+            <label for="coupon" class="ms-2">Coupon</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="message" id="Lecture">
+            <label for="message" class="ms-2">Message</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="setting" id="Lecture">
+            <label for="setting" class="ms-2">Setting</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="task-menu" id="Lecture">
+            <label for="task-menu" class="ms-2">Task Menu</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EYEModal -->
+  <div class="modal fade eye-modal" id="eyeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="d-flex">
+          <div class="img">
+            <img src="./assets/images/emir.jpeg" alt="">
+          </div>
+          <div class="right-section ms-4">
+            <div class="top-section d-flex justify-content-between">
+              <div class="text">
+                <p class="mb-2">#1</p>
+                <p>Admin</p>
+                <h6 class="mb-2">Emir Wicks</h6>
+                <p><span>emir.wicks@mail.com</span></p>
+              </div>
+              <div class="close">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="btm-section">
+              <p>
+                <a class="btn d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <span class="text-dark">Verified</span>
+                  <span class="material-icons less">
+                    expand_less
+                  </span>
+                  <span class="material-icons more">
+                    expand_more
+                  </span>
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <div>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Deactivate</button>
+                    <button type="button" class="btn btn-primary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- penModal -->
+  <div class="modal fade pen-modal" id="penModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New Admin</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Account</h6>
+          <div class="modal-name d-flex flex-column mt-3">
+            <label for="name" class="mb-1">Name</label>
+            <input type="text" id="name" value="Emir Wicks">
+          </div>
+          <div class="modal-email d-flex flex-column mt-3 mb-3">
+            <label for="email" class="mb-1">Email</label>
+            <input type="text" id="email" value="emir.wicks@mail.com">
+          </div>
+          <div class="line"></div>
+          <h6 class="mb-3">Verification</h6>
+          <div class="unverified d-flex align-items-center mb-3">
+            <span class="material-icons me-2">
+              report_problem
+            </span>
+            <p>Unverified</p>
+          </div>
+          <button type="button" class="btn btn-outline-dark" disabled>Send Verification Mail</button>
+          <div class="line"></div>
+          <h6 class="mb-3">Access Level</h6>
+          <div class="access-section d-flex justify-content-between align-items-center pt-3 pe-3 pb-3 ps-3">
+            <p>Admin</p>
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+          <div class="line"></div>
+          <h6 class="mb-3">Custom Access</h6>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="lecture" id="Lecture">
+            <label for="lecture" class="ms-2">Lecture</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="coupon" id="Lecture">
+            <label for="coupon" class="ms-2">Coupon</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="message" id="Lecture">
+            <label for="message" class="ms-2">Message</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="setting" id="Lecture">
+            <label for="setting" class="ms-2">Setting</label>
+          </div>
+          <div class="checkbox d-flex align-items-center mb-3">
+            <input type="checkbox" name="" value="task-menu" id="Lecture">
+            <label for="task-menu" class="ms-2">Task Menu</label>
+          </div>
+          <div class="line"></div>
+          <h6 class="mb-3">Deactivate Account</h6>
+          <div class="deactivate-text d-flex align-items-center">
+            <span class="material-icons me-2">
+              report_problem
+            </span>
+            <p>This cannot be undone!</p>
+          </div>
+          <button type="button" class="btn btn-outline-danger mt-3 mb-5">
+            Deactivate This Account
+          </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

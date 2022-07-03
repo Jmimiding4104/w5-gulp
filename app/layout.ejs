@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="wrap d-flex ">
+    <div class="list d-flex flex-column justify-content-between">
+      <div class="list-top-section">
+        <h1><img src="./assets/images/logo-ANSWER.svg" alt=""></h1>
+        <div role="tabpanel">
+          <!-- List group -->
+          <div class="list-group" id="myList" role="tablist">
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#" role="tab">
+              <div class="list-content d-flex"><span class="material-icons pe-3">assessment</span>
+                <h2>Dashboard</h2>
+              </div>
+            </a>
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#" role="tab">
+              <div class="list-content d-flex"><span class="material-icons pe-3">forum</span>
+                <h2>Question</h2>
+              </div>
+            </a>
+            <a class="list-group-item list-group-item-action" href="./assignment.html" role="tab">
+              <div class="list-content d-flex"><span class="material-icons pe-3">content_paste</span>
+                <h2>Assignment</h2>
+              </div>
+            </a>
+            <a class="list-group-item list-group-item-action" href="#" role="tab">
+              <div class="list-content d-flex"><span class="material-icons pe-3">video_library</span>
+                <h2>Course</h2>
+              </div>
+            </a>
+            <a class="list-group-item list-group-item-action" href="./admin.html" role="tab">
+              <div class="list-content d-flex"><span class="material-icons pe-3">people_alt</span>
+                <h2>Admin</h2>
+              </div>
+            </a>
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#" role="tab">
+              <div class="list-content d-flex"><span class="material-icons pe-3">settings</span>
+                <h2>Settings</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="account d-flex">
+        <img src="./assets/images/andychen.jpeg" alt="">
+        <div class="account-text ms-3">
+          <h4 class="mb-1">Andy Chen</h4>
+          <p>andy0401@mail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <%- contents %>
+    </div>
+  </div>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
