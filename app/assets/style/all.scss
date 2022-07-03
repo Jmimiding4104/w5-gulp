@@ -1,9 +1,15 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-@import './css-reset.scss';
+
+@import './base/css-reset.scss';
 
 
 @import './layout/layout.scss';
-@import './layout/assignment.scss';
-@import './layout/admin.scss'
+
+@import './pages/admin.scss';
+@import './pages/assignment.scss';
+
+@import './components/adminModal.scss';
+@import './components/eyeModal.scss';
+@import './components/penModal.scss';
